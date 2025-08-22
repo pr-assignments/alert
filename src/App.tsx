@@ -3,7 +3,7 @@ import { EyeIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import CloseIcon from "./CloseIcon";
 function App() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <div className="flex flex-col gap-4 items-center justify-center min-h-screen  w-full bg-gray-100 p-4">
       <div className="flex flex-col gap-4 max-w-[854px] mx-auto">
